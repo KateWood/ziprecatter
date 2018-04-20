@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.brand_logo {
+  width: 155px;
+}
+
+.sign_in {
+  height: 20px;
+  color: #71AF05;
+  font-size: 17px;
+  line-height: 35px;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+}
+
+.main_image {
+  width: 100%;
+}
+
+.gray_section {
+  max-width: 1440px;
+  background-color: #F1F3F4;
+  margin-top: -5px;
+}
+
+.search_form {
+  width: 70%;
+  padding: 28px 0;
+  margin: 0 auto;
+}
+
+.field {
+  height: 50px;
+  width: 36%;
+  border: 1px solid #C9CCCE;
+  background-color: #FFFFFF;
+}
+
+.field::placeholder {
+  color: #B5B8BA;
+  font-size: 20px;
+  line-height: 24px;
+  padding-left: 10px;
+}
+
+.submit {
+  height: 40px;
+  width: 25%;
+  border-radius: 20px;
+  background-color: #71AF05;
+  color: white;
+  font-size: 15px;
+}
+
+.section_header {
+  text-align: center;
+  font-size: 43px;
+}
+
+.left {
+  width: 40%;
+  display: inline-block;
+  margin-right: 9%;
+}
+
+.right {
+  width: 40%;
+  display: inline-block;
+}
+
+.section_text {
+  vertical-align: top;
+  padding: 20px;
+}
+
+.top_careers {
+  padding: 10px 0 35px;
+}
+
+.job_list {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.sign_up_button {
+  height: 48px;
+  width: 182px;
+  border: 1px solid #D3D5D8;
+  border-radius: 24px;
+  background-color: #FFFFFF;
+  color: #71AF05;
+  font-size: 17px;
+}
+
+.top_careers .sign_up_button {
+  display: block;
+  margin: 35px auto 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .search_form {
+    width: 90%;
+  }
+
+  .field {
+    margin-bottom: 5px;
+    width: 100%;
+  }
+
+  .submit {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .left,
+  .right {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .section_text {
+    padding: 20px 0;
+  }
+
+  .sign_up_button {
+    width: 100%;
+  }
+}
